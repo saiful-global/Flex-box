@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol {
+    list-style-type: none;
+}
+.container {
+    width: 1170px;
+    margin:0 auto;
+}
+.nav_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.menu ul {
+    display: flex;
+    column-gap: 30px;
+}
+.menu ul li a {
+    font-family: "Michroma", sans-serif;
+    font-size: 18px;
+    transition:all linear .3s;
+    color: #fff;
+}
+.menu ul li a:hover {
+    color: rgb(7, 255, 32);
+}
+nav {
+    padding:10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.about_main {
+    display: flex;
+    padding:50px 0;
+    gap: 50px;
+}
+.about_left {
+    width: 470px;
+}
+.about_left img {
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px rgb(90, 100, 91);
+}
+
+.about_right {
+    width: 700px;
+}
+.about_right h2 {
+    font-size: 40px;
+    font-family: "Michroma", sans-serif;
+    color: rgb(254, 0, 0);
+    padding-bottom: 20px;
+}
+.about_right p {
+    font-size: 20px;
+    font-family: "Michroma", sans-serif;
+    color: #00aaff;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.about_right a {
+    background-color: rgb(20, 125, 35);
+    padding:10px 20px;
+    font-family: "Michroma", sans-serif;
+    color: rgb(255, 243, 15);
+    border-radius: 50px;
+}
+
+.service_main {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.servie_item {
+    width: 330px;
+    background-color: #a319de;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 3px solid rgb(11, 11, 11);
+    box-shadow: 20px 20px 20px rgb(90, 100, 91);
+}
+.servie_item h3 {
+    font-size: 24px;
+    color: #07ffde;
+    font-family: "Michroma", sans-serif;
+    padding-bottom: 10px;
+}
+.servie_item p {
+    font-size: 16px;
+    color: #fffb0b;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.servie_item a {
+    background-color: rgb(16, 102, 12);
+    padding:10px 20px;
+    font-family: "Michroma", sans-serif;
+    color: white;
+    border-radius: 20px;
+}
+.gallery{
+    display: flex;
+    padding:50px 0;
+    gap: 50px;
+
+}
+.chobi{
+    width: 200px;
+
+}
+.chobi img{
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px rgb(90, 100, 91);
+}
+form button{
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: #07ffde;
+    color: #ff0f0f;
+}
